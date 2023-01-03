@@ -1,12 +1,11 @@
-"""A basic caluclator script"""
+"""
+Id: 1011
+Name: John Doe
+"""
 
 
 def add(a, b):
     return a + b
-
-
-def subtract(a, b):
-    return a - b
 
 
 def multiply(a, b):

@@ -1,2 +1,3 @@
-# assignment-actions-demo
-An attempt to show that GitHub actions can be used to automate evaluating assignments
+# Submission Details
+
+- Did not submit the code for the subtract method
