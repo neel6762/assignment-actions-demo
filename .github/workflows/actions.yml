@@ -1,0 +1,21 @@
+name: check-assignments
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: Install dependencies
+        run: |
+          pip install pytest
+      - name: Run tests
+        run: |
+          pytest test_calculator.py
+
+
