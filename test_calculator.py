@@ -1,7 +1,7 @@
 """Test cases for the calculator submission"""
 
 import pytest
-from calculator import add, subtract, multiply, divide
+from calculator import *
 
 
 def test_add():
